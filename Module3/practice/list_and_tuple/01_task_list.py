@@ -3,4 +3,10 @@
 
 my_list = [24, "Василий", "выхухоль", 42, -12.5]
 
-# TODO: your code here
+#Решение Гошков Андрей
+my_list = [24, "Василий", "выхухоль", 42, -12.5]
+
+length = 0
+while length<len(my_list):
+    print(my_list[length])
+    length = length + 1
