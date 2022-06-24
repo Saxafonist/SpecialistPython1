@@ -3,4 +3,12 @@
 
 fruits = ["яблоко", "банан", "киви", "ананас", "груша"]
 
-# TODO: your code here
+# Решение Гошков Андрей
+fruits = ["яблоко", "банан", "киви", "ананас", "груша"]
+
+number = 1
+length = 0
+while length < len(fruits):
+    print(number,fruits[length])
+    length = length + 1
+    number = number + 1
