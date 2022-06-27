@@ -15,3 +15,12 @@ fruits = ["яблоко", "банан", "киви", "арбуз"]
 
 # Важно! Ваше решение должно работать с любыми корректными "исходными данными"
 # Проверьте это, добавив или удалив несколько элементов списка
+
+max_len = 0
+for fruit in fruits:
+    if len(fruit) > max_len:
+        max_len = len(fruit)
+number = 0
+for fruit in fruits:
+    number = +1
+    print(f"{number}. {fruit:>{max_len}}")
